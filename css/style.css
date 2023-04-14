@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:ital,wght@0,500;1,700;1,800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: Hanken Grotesk;
+display: flex;
+justify-content: center;
+padding-top: 10rem;
+background-color: antiquewhite;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 2rem 2.5rem;
+    background-color:hsl(241, 84%, 61%);
+    border-color: hsl(241, 84%, 61%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.second{
+    border: 1px solid;
+    border-radius: 0.3rem;
+    padding: 2rem 3rem;
+    background-color: rgb(255, 247, 236);
+    border-color:rgb(255, 247, 236) ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.one div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 55% ;
+    padding: 2rem 3rem;
+    background-color: hsl(241, 84%, 61%);
+    color:hsl(241, 84%, 61%) ;
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.one h1{
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+}
+
+.one h6 {
+    color:rgb(197, 193, 193);
+    padding-left: 1.5rem;
+
+}
+.one pre{
+    font-size: 0.7rem;
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+    color: wheat;
+    font-family:Hanken Grotesk ;
+}
+
+.one header{
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    color:rgb(197, 193, 193) ;
+}
+
+.one h2{
+    color: rgb(255, 253, 253);
+    padding-left: 3.5rem;
+    padding-top: 1.5rem;
+    font-weight: 550;
+}
+.second button{
+    width: 115%;
+    height: 12%;
+    border-color: white;
+    border-radius: 0.5rem;
+}
+
+.first{
+    background-color: rgb(253, 244, 233);
+    font-size: 1rem;
+    font-family:"Hanken Grotesk",sans-serif;
+    font-weight: 600;
+    color: hsl(0, 100%, 67%);
+}
+
+.sec{
+    background-color: rgb(253, 244, 233);
+    font-size: 1rem;
+    font-family:"Hanken Grotesk",sans-serif;
+    font-weight: 600;
+    color: hsl(39, 100%, 56%);
+}
+
+.third{
+    background-color: rgb(253, 244, 233);
+    font-size: 1rem;
+    font-family:"Hanken Grotesk",sans-serif;
+    font-weight: 600;
+    color: hsl(166, 100%, 37%);
+}
+
+.fourth{
+    border-radius: 2rem 5rem;
+    background-color: rgb(253, 244, 233);
+    font-size: 1rem;
+    font-family:"Hanken Grotesk",sans-serif;
+    font-weight: 600;
+    color: hsl(234, 85%, 45%);
+   
+}
+
+.end{
+    background-color: hsl(241, 81%, 54%);
+
+}
+
